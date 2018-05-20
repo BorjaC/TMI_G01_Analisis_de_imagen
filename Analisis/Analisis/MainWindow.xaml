@@ -1,0 +1,16 @@
+﻿<Window x:Class="Analisis.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Analisis"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="538.636" Width="1063.182">
+    <Grid>
+        <Image Name="ImageLeft" HorizontalAlignment="Left" Height="358" Margin="10,10,0,0" VerticalAlignment="Top" Width="328"/>
+        <Button Content="Cargar" Margin="30,461,792,0" Click="Button_Click_Load" Height="37" VerticalAlignment="Top"/>
+        <Button Content="Analizar" Margin="294,461,528,0" Click="Button_Click_Analize" Height="37" VerticalAlignment="Top" />
+        <TextBlock Name="Results" HorizontalAlignment="Left" Height="270" Margin="394,33,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="348"/>
+
+    </Grid>
+</Window>
