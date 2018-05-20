@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="538.636" Width="1063.182">
     <Grid>
-        <Image Name="ImageLeft" HorizontalAlignment="Left" Height="358" Margin="10,10,0,0" VerticalAlignment="Top" Width="328"/>
+        <Image Name="ImageLeft" HorizontalAlignment="Left" Height="358" Margin="98,40,0,0" VerticalAlignment="Top" Width="328"/>
         <Button Content="Cargar" Margin="30,461,792,0" Click="Button_Click_Load" Height="37" VerticalAlignment="Top"/>
         <Button Content="Analizar" Margin="294,461,528,0" Click="Button_Click_Analize" Height="37" VerticalAlignment="Top" />
-        <TextBlock Name="Results" HorizontalAlignment="Left" Height="270" Margin="394,33,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="348"/>
+        <TextBlock Name="Results" HorizontalAlignment="Left" Height="270" Margin="488,89,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="348"/>
 
     </Grid>
 </Window>

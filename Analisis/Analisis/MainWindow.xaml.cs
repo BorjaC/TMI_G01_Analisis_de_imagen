@@ -24,7 +24,7 @@ namespace Analisis
         {
             InitializeComponent();
 
-            //LoadImageFromPath(@"C:\Users\sduque\Downloads\Rafa Gimeno-_DSC4775_preview.jpeg");
+            //LoadImageFromPath(@"");
         }
 
         private void Button_Click_Load(object sender, RoutedEventArgs e)
