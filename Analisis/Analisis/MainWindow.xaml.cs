@@ -35,8 +35,8 @@ namespace Analisis
 
 
             // Set filter for file extension and default file extension 
-            dlg.DefaultExt = ".png";
-            dlg.Filter = "JPEG Files (*.jpeg)|*.jpeg|PNG Files (*.png)|*.png|JPG Files (*.jpg)|*.jpg|GIF Files (*.gif)|*.gif";
+            dlg.DefaultExt = ".bmp";
+            dlg.Filter = "BMP Files (*.bmp)|*.bmp|JPEG Files (*.jpeg)|*.jpeg|PNG Files (*.png)|*.png|JPG Files (*.jpg)|*.jpg|GIF Files (*.gif)|*.gif";
 
 
             // Display OpenFileDialog by calling ShowDialog method 
@@ -98,7 +98,7 @@ namespace Analisis
 
             if(msg.Length == 0)
             {
-                msg.AppendLine("Ningún pixel chungele");
+                msg.AppendLine("Ningún pixel incoherente con sus vecinos");
             }
 
             return msg.ToString();
